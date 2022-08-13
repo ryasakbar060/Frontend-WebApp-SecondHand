@@ -135,6 +135,7 @@ p {
 .slider {
   position: relative;
   transition: all 0.5 ease;
+  /* border: 2px solid black; */
 }
 
 .slider .owl-item.active.center .slider-card {
@@ -142,12 +143,13 @@ p {
 }
 
 .slider .slider-card {
-  margin: 50px 70px 50px 70px;
+  margin: 50px 70px 50px 60px;
   border: 1px solid transparent;
 }
 
 .slider .slider-card .card {
   border: 1px solid transparent;
+  /* padding-top: 0px; */
 }
 
 .slider .owl-theme .owl-dots {
@@ -155,21 +157,22 @@ p {
 }
 
 .slider .home-carousel-1 {
-  width: 450px;
+  /* padding-top: 50px; */
+  width: 405px;
   height: 135px;
   border-radius: 10px;
   background-color: #ffe9ca;
 }
 
 .slider .home-carousel-2 {
-  width: 450px;
+  width: 405px;
   height: 135px;
   border-radius: 10px;
   background-color: #e2d4f0;
 }
 
 .slider .home-carousel-3 {
-  width: 450px;
+  width: 405px;
   height: 135px;
   border-radius: 10px;
   background-color: #b6d4a8;
