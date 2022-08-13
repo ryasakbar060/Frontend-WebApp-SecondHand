@@ -4,7 +4,7 @@
 }
 
 * {
-  font-family: "editFont";
+  font-family: 'editFont';
 }
 
 p {
@@ -379,7 +379,7 @@ p {
   overflow: hidden;
 }
 
-.upload .upload-image input[type="file"] {
+.upload .upload-image input[type='file'] {
   cursor: pointer;
   position: absolute;
   left: 0;
@@ -397,7 +397,7 @@ p {
   overflow: hidden;
 }
 
-.upload-product .upload-image-product input[type="file"] {
+.upload-product .upload-image-product input[type='file'] {
   cursor: pointer;
   position: absolute;
   left: 0;
@@ -469,7 +469,7 @@ p {
   flex-direction: column;
 }
 
-.content-product .upload-product .upload-image-product input[type="file"] {
+.content-product .upload-product .upload-image-product input[type='file'] {
   cursor: pointer;
   position: absolute;
   left: 0;
