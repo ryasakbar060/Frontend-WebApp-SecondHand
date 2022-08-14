@@ -482,6 +482,8 @@ export function InfoAccForm() {
                   <option hidden>Pilih Kota</option>
                   <option value="Lombok">Lombok</option>
                   <option value="Mataram">Mataram</option>
+                  <option value="Praya">Praya</option>
+                  <option value="Bandung">Bandung</option>
                 </Form.Select>
               </Form.Group>
               <Form.Group className="mb-2">
@@ -872,7 +874,7 @@ export function InfoProductForm(props) {
 
             <Form.Group className="mb-2">
               <Form.Label>Deskripsi</Form.Label>
-              <Form.Control style={formStyle} as="textarea" placeholder="Contoh: Jalan Ikan Hiu 33" className="py-2" ref={descriptionField} />
+              <Form.Control style={formStyle} as="textarea" placeholder="Isi deskripsi product" className="py-2" ref={descriptionField} />
             </Form.Group>
 
             <Form.Group className="mb-3 d-flex flex-column ">
@@ -1083,7 +1085,7 @@ export function InfoProductFormV2(props) {
 
             <Form.Group className="mb-2">
               <Form.Label>Deskripsi</Form.Label>
-              <Form.Control style={formStyle} as="textarea" placeholder="Contoh: Jalan Ikan Hiu 33" className="py-2" ref={descriptionField} />
+              <Form.Control style={formStyle} as="textarea" placeholder="Isi deskripsi product" className="py-2" ref={descriptionField} />
             </Form.Group>
 
             <Form.Group className="mb-3 d-flex flex-column ">
@@ -1316,7 +1318,7 @@ export function UpdateProductForm(props) {
 
             <Form.Group className="mb-2">
               <Form.Label>Deskripsi</Form.Label>
-              <Form.Control style={formStyle} as="textarea" placeholder="Contoh: Jalan Ikan Hiu 33" className="py-2" ref={descriptionField} defaultValue={data.description} />
+              <Form.Control style={formStyle} as="textarea" placeholder="Isi deskripsi product" className="py-2" ref={descriptionField} defaultValue={data.description} />
             </Form.Group>
 
             <Form.Group className="mb-3 d-flex flex-column ">
