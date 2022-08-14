@@ -673,10 +673,12 @@ export function InfoAccFormV2() {
                   <option hidden>Pilih Kota</option>
                   <option value="Lombok">Lombok</option>
                   <option value="Mataram">Mataram</option>
+                  <option value="Praya">Praya</option>
+                  <option value="Bandung">Bandung</option>
                 </Form.Select>
               </Form.Group>
               <Form.Group className="mb-2">
-                <Form.Label>Nama</Form.Label>
+                <Form.Label>Alamat</Form.Label>
                 <Form.Control style={formStyle} as="textarea" placeholder="Contoh: Jalan Ikan Hiu 33" className="py-2" ref={addressField} defaultValue={user.address} />
               </Form.Group>
               <Form.Group className="mb-3">
