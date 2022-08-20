@@ -159,7 +159,7 @@ export function HomeNav() {
           <Navbar.Toggle aria-controls="offcanvas" onClick={handleShow} />
         </div>
 
-        <Root>
+        {/* <Root>
           <div className="me-auto">
             <div className="search-bar-fixed d-flex">
               <input
@@ -175,7 +175,7 @@ export function HomeNav() {
               </h4>
             </div>
           </div>
-        </Root>
+        </Root> */}
 
         <Navbar.Offcanvas show={show} className="w-50" id="offcanvas" onHide={handleClose}>
           <Offcanvas.Header closeButton>
